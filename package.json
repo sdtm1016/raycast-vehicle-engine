@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
-    "start": "webpack serve --config ./bundler/webpack.dev.js"
+    "start": "webpack serve --config ./bundler/webpack.dev.js",
+    "ii": "npm install"
   },
   "dependencies": {
     "@babel/core": "^7.12.10",
